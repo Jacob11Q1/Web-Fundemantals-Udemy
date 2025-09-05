@@ -1,0 +1,23 @@
+h1,h2{
+    color: blueviolet;
+}
+/* This code is to help me select one item from the class box (The Father) 
+and choose one child with is (P) and it is cald {The Selector (this sign >}*/
+.box > p{
+    color: firebrick;
+}
+
+/*The Descendant code means select one parent and one grandchild*/
+.box li{
+    color: blue;
+}
+
+/*The Chaining Selector always start with the element for the chaining selector*/
+li.done{
+    color: seagreen;
+}
+
+/*this code helps me to {Combining Combiners}*/
+ul p.done{
+    font-size: 0.5rem;
+}
